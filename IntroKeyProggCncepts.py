@@ -40,6 +40,27 @@ print(statement)
 
 message = 4 > 2 and 33 < 43
 message2 = 4 < 2 or 33 < 43
-X = false
 
-print(not X)
+x = 10
+x = y + 10 
+
+z = 7 // 2
+t = 7 / 2
+print(t)
+
+def my_function():
+    print('I am so great!')
+
+my_function()
+
+def add(num1, num2):
+    print(num1 + num2)
+
+my_name = "Vivienne"
+Words = my_name.split(' ')
+print(Words)
+
+def subtract(num1, num2):
+    return num1 - num2
+
+print(subtract(4,2))
