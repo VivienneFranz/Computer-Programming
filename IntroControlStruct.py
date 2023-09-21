@@ -32,3 +32,10 @@ i = 1
 while 1 < 6:
     print("I'm still going")
     i += 1
+
+
+for i in range(50):
+    if i > 24:
+        break
+    else:
+        print(i)

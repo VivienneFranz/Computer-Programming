@@ -1,7 +1,8 @@
-def print_my_name(name):
-    print(name)
+def print_my_name(Vivienne):
+    print(Vivienne)
 
-print_my_name('Bob')
+print_my_name('Vivienne')
+
 
 def trip_planner(start, end, duration, mode):
     print(f"It looks like you're taking a trip to {start}")
