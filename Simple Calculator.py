@@ -8,10 +8,14 @@ print(f'{Second_user_input}')
 Third_user_input = input("add, subrtact, multiply, divide")
 print(f'{Third_user_input}')
 
-def add (First_user_input + Second_user_input)
-def subtract (First_user_input - Second_user_input)
-def multiply (First_user_input * Second_user_input)
-def divide (First_user_input / Second_user_input)
+def add():
+    print(First_user_input + Second_user_input)
+def subtract():
+    print(First_user_input - Second_user_input)
+def multiply():
+    print(First_user_input * Second_user_input)
+def divide():
+    print(First_user_input / Second_user_input)
 
 
 
