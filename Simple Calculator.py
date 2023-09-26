@@ -17,8 +17,6 @@ def multiply():
 def divide():
     print(First_user_input / Second_user_input)
 
-
-
 def simple_calculator(First, second, third):
     print(f"We start by calculating {First}")
     print(f"by {second}")
