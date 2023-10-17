@@ -9,6 +9,8 @@ morse_dict = {
     ':': '---...', ';': '-.-.-.', '=': '-...-', '+': '.-.-.', '-': '-....-', '_': '..--.-', '"': '.-..-.',
     '$': '...-..-', '@': '.--.-.', ' ': '/'}
 
+message_to_code = input("What message would you like to turn into morse code? Hit enter to choose below ")
+
 def to_morse_code(message):
     
     morse_code = ''
