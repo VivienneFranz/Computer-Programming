@@ -1,9 +1,7 @@
-for n in range(1,100):
-    string = ""
+for n in range(1, 101):
     if n % 3 == 0:
-        string = string + "Fizz"
+        print("Fizz")
     if n % 5 == 0:
-        string = string + "Buzz"
+        print("Buzz")
     if n % 5 != 0 and n % 3 != 0:
-        string = string + str(n)
-    print(string)
+        print(n)
