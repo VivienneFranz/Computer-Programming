@@ -1,0 +1,26 @@
+computer_progreamming_team = {
+    "team_leader": {
+        "name": "Jim",
+        "duties": {'supervise', 'assist', 'advocate'}
+    },
+    "analyst": {
+        "name" : "Oscar",
+        "duties": {'analyze', 'examine', 'collect'}
+    },
+    "senior_developer": {
+        "name": "Dwight",
+        "duties": {'train', 'assist', 'develop'}
+    },
+    "Junior_developer": {
+        "name": "Ryan",
+        "duties": {'learn', 'develop'}
+    },
+    "client": {
+        "name": "Jan",
+        "duties": {'propose', 'critique', 'request'}
+    },
+    "product_manager": {
+        "name" : "Michael",
+        "duties": {'manage', 'mediate', 'advocate'}
+        }
+}
