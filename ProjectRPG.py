@@ -1,5 +1,4 @@
 def user_hp_distance(start):
-    HP = 100
     invintory = 0
 
 
@@ -21,14 +20,48 @@ import random
 mylist = [1,2,3,4,5]
 
 n = random.choice(mylist)
+        
 
-for i in range(5):
-    if i > 3:
-        print(f" {user_input1} You have run into a snake choose to fight f or run r.")
-    else: 
-        print(f" {user_input1} You have walked 1 mile. press w to contunie walking or press i to veiw HP and Invintory. ")
-
+        
+fight_input = input(" You have come across a snake! Do you choose to fight? type f or r ")
 if user_input2 == 'f':
-    print("You have choosen to fight snake you attacked the snake and did 50 damage, the snake did 75 on you. ")
+    print("You have choosen to fight snake. ")
 elif user_input2 == 'r':
     print("You have choosen to run and escaped!")
+
+
+import random
+
+player_hp = 100
+
+def attack_enemy():
+    while True:
+        if player_hp > 0:
+            your_attack = random.randint(10,100)
+            print(f"you attacked the enemy for {your_attack} damage!")
+            enemy_hp -= your_attack
+        
+        if enemy_hp > 0:
+            enemy_attack = random.randint(10, 100)
+            print(f"The enemy attacked you for {enemy_attack} damage!")
+            player_hp -= enemy_attack
+
+            if player_hp <= 0:
+                print("You died!")
+                break
+            elif enemy_hp <= 0:
+                print("You killed the snake!")
+                print("You have earned 30 hp and an item in your inventory!")
+                player_hp += 30
+                break
+
+if user_input2 == Won:
+    print("You have earned a green gem.")
+
+if user_input2 == "w":
+    print("You have walked 1 mile. press w to contunie walking or press i to veiw HP and Invintory. ")
+elif user_input2 == "i":
+    print(f"You have 100 and nothing in your invintory. press w to contunie walking or press i to veiw HP and Invintory. ")
+else:
+    print("Invalid input please type w or i ")
+
